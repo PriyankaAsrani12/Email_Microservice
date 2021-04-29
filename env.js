@@ -1,9 +1,9 @@
 module.exports={
-    MYSQL_DATABASE : "email",
+    MYSQL_DATABASE : "trial_database",
     MYSQL_USER : "admin",
     MYSQL_ROOT_PASSWORD : "admin1234",
-    DB_HOST : "oyesters-db-1.clcmspyxrtn3.ap-south-1.rds.amazonaws.com" ,
-    
+    DB_HOST : "oyesters-db-1.clcmspyxrtn3.ap-south-1.rds.amazonaws.com",
+
     ZOHO_ACCESS_KEY : "Zoho-enczapikey wSsVR60lr0P4Cq0ommesJuo6nFwEAwunR0ksilDw6Hf4Sq+W9MdtnhHGDQGlFKAYGWBpQDsToeotyRsIhmdf3Nt7yl5TXiiF9mqRe1U4J3x17qnvhDzMXmtdkReIKIwLww9qkmhkEswh+g==",
 
     POSTMARK_ACCESS_KEY : "98e25119-1c93-42bb-829b-0d5d481af5c4",
@@ -19,5 +19,5 @@ module.exports={
 
     ADDRESS : "oyesters_training@oyesters.in",
 
-    PORT : 5000
+    PORT : 5002
 }

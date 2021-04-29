@@ -27,7 +27,7 @@ const swaggerOptions={
             contact: {
                 name: "Priyanka Asrani",
             },
-            servers: ["http://localhost:5000"]
+            servers: ["http://localhost:5002"]
         }
     },
     apis: ["index.js"]
@@ -59,7 +59,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 //Using routes
 app.use('/', routes)
 
-app.listen(5002,()=>{
+app.listen(PORT,()=>{
     console.log("Server Started");
 });
 //You can delete this
